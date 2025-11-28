@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIokkaliga - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AIokkaliga</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+            <a href="weather.html">Weather</a>
+            <a href="scanner.html">Scanner</a>
+            <a href="livestock.html">Livestock</a>
+            <a href="market.html">Market</a>
+            <a href="agristore.html">AgriStore</a>
+            <a href="alerts.html">Alerts</a>
+            <a href="advisory.html">Advisory</a>
+            <a href="voice.html">Voice</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Welcome Back, Farmer!</h2>
+            <p>“Login to continue your smart farming journey.”</p>
+            <form>
+                <h3>Option 1 — Phone Login (Recommended for Farmers)</h3>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your mobile number">
+
+                <label for="otp">OTP</label>
+                <input type="text" id="otp" placeholder="Enter 6-digit OTP sent to your phone">
+
+                <button type="button" id="send-otp">Send OTP</button>
+                <button type="submit" id="verify-login">Verify & Login</button>
+            </form>
+            <p>Fast, simple, and secure login.</p>
+            <p>We will never share your number.</p>
+            <p>No password? Use OTP login instead.</p>
+            <p>Works even on low network.</p>
+            <div class="secondary-buttons">
+                <button>Login with OTP</button>
+                <button>Login with Password</button>
+            </div>
+            <p><a href="#">Forgot Password?</a> Reset using your phone number.</p>
+            <p>New to AIokkaliga? <a href="signup.html">Create an account</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

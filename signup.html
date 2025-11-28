@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIokkaliga - Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AIokkaliga</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+            <a href="weather.html">Weather</a>
+            <a href="scanner.html">Scanner</a>
+            <a href="livestock.html">Livestock</a>
+            <a href="market.html">Market</a>
+            <a href="agristore.html">AgriStore</a>
+            <a href="alerts.html">Alerts</a>
+            <a href="advisory.html">Advisory</a>
+            <a href="voice.html">Voice</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section id="signup">
+            <h2>Create Your AIokkaliga Account</h2>
+            <p>“Join the smarter farming community. It’s easy and free.”</p>
+            <form>
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" placeholder="Enter your name">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="We will send you an OTP">
+
+                <label for="village">Village / Town</label>
+                <input type="text" id="village" placeholder="Your farming location">
+
+                <label for="district">District</label>
+                <select id="district">
+                    <option>Select your district</option>
+                    <!-- Add options as needed -->
+                </select>
+
+                <label for="state">State</label>
+                <select id="state">
+                    <option>Select your state</option>
+                    <!-- Add options as needed -->
+                </select>
+
+                <label for="farmer-type">Farmer type</label>
+                <select id="farmer-type">
+                    <option>Small/Big/agriinduties</option>
+                </select>
+
+                <label for="language">Preferred Language</label>
+                <select id="language">
+                    <option>Choose your language (ಕನ್ನಡ / हिन्दी / English)</option>
+                </select>
+
+                <label for="password">Create Password (optional if using OTP login)</label>
+                <input type="password" id="password" placeholder="Minimum 6 characters">
+
+                <input type="checkbox" id="agree">
+                <label for="agree">✔ I agree to the Terms & Conditions and Privacy Policy.</label>
+
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Your information is safe with us — we never share it.</p>
+            <p>Use your real village name for accurate weather & market alerts.</p>
+            <p>You can change your language anytime.</p>
+            <p>Fast, simple, and free forever.</p>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

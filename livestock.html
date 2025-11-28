@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIokkaliga - Livestock Health</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AIokkaliga</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section id="livestock">
+            <h2>Livestock Health Monitor</h2>
+            <p>“Track your cattle’s health, feeding, and vaccination — in one place.”</p>
+            <h3>Your Livestock List</h3>
+            <ul>
+                <li>Cow 1 — Healthy</li>
+                <li>Cow 2 — Needs Attention</li>
+                <li>Buffalo — All Good</li>
+            </ul>
+            <button>Add New Animal</button>
+            <h3>Animal Health Details</h3>
+            <p>Animal Name: Cow 2</p>
+            <p>Status: ⚠️ Needs Attention</p>
+            <p>AI Summary: “Cow shows reduced activity and low feed intake. Possible digestion issue.”</p>
+            <h3>Scan Animal</h3>
+            <button>📷 Scan Animal Health</button>
+            <p>“Take a photo of the animal’s face, eyes, nose, or dung for AI-based health check.”</p>
+            <h3>AI Diagnosis</h3>
+            <p>Possible Issue: Acidosis (Mild)</p>
+            <p>Confidence: 78%</p>
+            <p>Symptoms Detected:</p>
+            <ul>
+                <li>Low appetite</li>
+                <li>Drooping ears</li>
+                <li>Slight weakness</li>
+            </ul>
+            <h3>Recommended Actions</h3>
+            <p>Immediate Care (Today)</p>
+            <ul>
+                <li>Provide fresh fodder</li>
+                <li>Reduce concentrate feed</li>
+                <li>Give clean drinking water</li>
+                <li>Monitor activity for 24 hours</li>
+            </ul>
+            <p>Suggested Treatment</p>
+            <ul>
+                <li>Sodium bicarbonate (as directed)</li>
+                <li>Probiotic supplement</li>
+            </ul>
+            <p>Veterinarian Note: “Consult your vet if symptoms last more than 24–48 hours.”</p>
+            <h3>Vaccination & Deworming</h3>
+            <p>Upcoming:</p>
+            <ul>
+                <li>FMD Vaccine — 5 days left</li>
+                <li>Deworming — 15 days left</li>
+            </ul>
+            <button>View Schedule</button>
+            <h3>Feeding Pattern</h3>
+            <p>Today’s Intake:</p>
+            <ul>
+                <li>Green Fodder: ↓ Low</li>
+                <li>Dry Fodder: Normal</li>
+                <li>Water Intake: Normal</li>
+            </ul>
+            <p>AI Insight: “Low green fodder intake noticed for two days.”</p>
+            <h3>Dung Quality Check</h3>
+            <p>Latest Report:</p>
+            <ul>
+                <li>Texture: Soft</li>
+                <li>Color: Slightly dark</li>
+                <li>Smell: Mild sour</li>
+            </ul>
+            <p>AI Comment: “Possible digestion issue — monitor feeding tomorrow.”</p>
+            <h3>Alerts & Notifications</h3>
+            <ul>
+                <li>⚠️ Cow 2: Reduced movement today</li>
+                <li>💉 Vaccine reminder: FMD for Buffalo</li>
+                <li>🍼 Increase water intake due to heatwave tomorrow</li>
+            </ul>
+            <button>🎤 Ask AIokkaliga About Livestock Health</button>
+            <h3>Add Animal Record</h3>
+            <form>
+                <label for="animal-type">Animal Type</label>
+                <select id="animal-type">
+                    <option>Cow</option>
+                    <option>Buffalo</option>
+                    <option>Goat</option>
+                </select>
+                <label for="animal-name">Name</label>
+                <input type="text" id="animal-name" placeholder="Name">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Age">
+                <label for="breed">Breed</label>
+                <input type="text" id="breed" placeholder="Breed">
+                <label for="last-vaccine">Last vaccination</label>
+                <input type="date" id="last-vaccine">
+                <label for="feed-amount">Daily feed amount</label>
+                <input type="text" id="feed-amount" placeholder="Feed amount">
+                <label for="notes">Notes</label>
+                <textarea id="notes" placeholder="Past issue history"></textarea>
+                <button type="submit">Save Animal</button>
+            </form>
+            <footer>
+                <p>Healthy animals mean a healthy farm. AIokkaliga helps you care for them better.</p>
+            </footer>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
